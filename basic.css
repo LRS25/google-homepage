@@ -2,6 +2,7 @@ html {
     font-family: sans-serif;
     text-align: center;
     font-size: 14px;
+    color: #70757a;
 }
 
 .ai {
@@ -12,7 +13,8 @@ html {
     transform: translateY(-8px);
 }
 .ai, .grid {
-    margin: 1.3vw 0.8vw 1.3vw 0.8vw;
+    margin: 1.3px 0.8px 1.3px 0.8px;
+    color: rgba(0,0,0,0.87);
 }
 .grid {
     transform: translateY(-3px);
@@ -22,13 +24,34 @@ html {
     position: fixed;
     width: 100%;
     top: 0;
+    color: rgba(0,0,0,0.87);
 }
-.nav-link{
-    margin: 1.3vw 0.8vw 1.3vw 0.8vw;
+.nav-link {
+    margin: 17.5px 0.8px 17.5px 0.8px;
+}
+.footer-link {
+    margin: 17.5px 0.8px 0 0.8px;
 }
 #l {
     float: left;
 }
 #r {
     float: right;
+}
+#c {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+#google-img {
+    transform: scale(0.5);
+}
+footer {
+    background-color: #f2f2f2;
+    color: #3c4043;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
 }
