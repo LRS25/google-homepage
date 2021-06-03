@@ -50,7 +50,7 @@ main {
 }
 footer {
     background-color: #f2f2f2;
-    color: #3c4043;
+    color: #72777b;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -63,10 +63,13 @@ footer {
     text-align: center;
     margin: 30px auto;
     width: 585px;
-    height: 45px;
+    height: 46px;
     border: solid 1px rgba(222, 225, 229, 1);
-    border-radius: 22.5px;
+    border-radius: 23px;
     background-color: white;
+}
+#sb:hover {
+    box-shadow: 0 0 5px lightgrey;
 }
 @media (max-width: 600px) {
     #sb {
@@ -74,18 +77,33 @@ footer {
     }
 }
 input {
-    border: none;
+    border: transparent;
     background-color: transparent;
+    height: 100%;
+    width: 490px;
+    font-size: 16px;
 }
 button {
     border: transparent;
-    border-radius: unset;
+    border-radius: 3px;
     background-color: #f8f9fa;
-    padding: 10px;
+    padding: 10px 17px 10px 17px;
+    margin: auto 5px auto 5px;
+    color: #3c4043;
+}
+button:hover {
+    border: solid 1px lightgrey;
+    box-shadow: 0 0 1px lightgrey;
 }
 #sb, #rb {
-    transform: translateY(-50px);
+    transform: translateY(-52px);
 }
 .search-icon, .mic-icon {
-    transform: translateY(10px);
+    transform: translateY(10.5px);
+}
+.search-icon {
+    margin-left: 12px;
+}
+.mic-icon {
+    margin-right: 12px;
 }
