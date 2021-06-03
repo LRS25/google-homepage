@@ -1,0 +1,10 @@
+html {
+    font-family: sans-serif;
+}
+
+#ai {
+    height: 2.3vw;
+    width: 2.3vw;
+    border: transparent;
+    border-radius: 1.15vw;
+}

@@ -1,0 +1,1 @@
+The goal of this project is to replicate the look of the Google homepage.
