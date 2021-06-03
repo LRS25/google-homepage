@@ -4,17 +4,21 @@ html {
     font-size: 14px;
     color: #70757a;
 }
-
+a:hover {
+    text-decoration: underline;
+}
+main {
+    transform: translateY(55px);
+}
 .ai {
-    height: 36px;
-    width: 36px;
+    height: 34px;
+    width: 34px;
     border: transparent;
-    border-radius: 18px;
-    transform: translateY(-8px);
+    border-radius: 17px;
+    transform: translateY(-7.5px);
 }
 .ai, .grid {
-    margin: 1.3px 0.8px 1.3px 0.8px;
-    color: rgba(0,0,0,0.87);
+    margin: 17.5px 9px 17.5px 9px;
 }
 .grid {
     transform: translateY(-3px);
@@ -25,23 +29,21 @@ html {
     width: 100%;
     top: 0;
     color: rgba(0,0,0,0.87);
+    padding-left: 18px;
+    padding-right: 10px;
 }
 .nav-link {
-    margin: 17.5px 0.8px 17.5px 0.8px;
+    margin: 19px 9.5px 19px 9.5px;
 }
 .footer-link {
-    margin: 17.5px 0.8px 0 0.8px;
+    margin: 15px 14px 0 14px;
+
 }
 #l {
     float: left;
 }
 #r {
     float: right;
-}
-#c {
-    position: absolute;
-    top: 100%;
-    left: 50%;
 }
 #google-img {
     transform: scale(0.5);
@@ -52,6 +54,8 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 50px;
+    height: 47px;
     text-align: center;
+    padding-left: 22px;
+    padding-right: 22px;
 }
